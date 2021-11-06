@@ -1,0 +1,61 @@
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Não ultrapassa a caixa */
+}
+
+body{
+   background: var(--preta); 
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff; 
+}
+
+/* Principal */
+main .filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),
+    url('/img/capa-handmandstale.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+main .filme-principal .descricao{
+    margin: 0px 0px 40px 0px;
+}
+
+main .titulo {
+    font-size: 40px;
+}
