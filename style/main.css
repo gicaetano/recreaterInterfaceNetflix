@@ -37,6 +37,17 @@ header nav a:hover{
     color: #fff; 
 }
 
+/* __________ Class ________ */
+.container {
+    margin: 0px 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
 /* Principal */
 main .filme-principal{
     font-size: 16px;
@@ -53,9 +64,41 @@ main .filme-principal{
 }
 
 main .filme-principal .descricao{
-    margin: 0px 0px 40px 0px;
+    margin: 10px 0px 40px 0px;
 }
 
-main .titulo {
+main .filme-principal .titulo {
+    margin-top: 10%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main .filme-principal .container{
+    width: 70%;
+}
+
+main .botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    /* font-size: 12px; */
+
+    cursor: pointer;
+}
+
+main .botao:hover{
+    background-color: white;
+    color: black;
+    transition: .5s ease all;
+}
+
+main .botao i{
+    margin: 0px 8px;
+}
+
+.box-filme{
+    height: 100%;
 }
